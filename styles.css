@@ -1,0 +1,122 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    position: relative;
+}
+.bg-primary {
+    background-color: rgb(0 47 116) !important;
+}
+
+header h1, header p {
+    position: relative;
+    z-index: 1;
+    color: #fffdfd;
+}
+
+
+h1, h2 {
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.1rem;
+    color: #fffefe;
+}
+
+.navbar-brand{
+    color: #0056b3;
+}
+nav .navbar-nav .nav-link {
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+nav .navbar-nav .nav-link:hover {
+    color: rgb(0 47 116);
+}
+
+
+
+main {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    margin-top: -50px;
+    position: relative;
+    z-index: 1;
+}
+
+#about p{
+
+    color: #333;
+}
+#about h2{
+    font-weight: 10;
+}
+
+
+#portfolio h2{
+    font-weight: 10;
+}
+#portfolio .card {
+    margin-bottom: 20px;
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10px;
+}
+
+#portfolio .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.btn-primary {
+    background-color: rgb(0 47 116);
+    border-color: rgb(0 47 116);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+
+#contact h2{
+    font-weight: 10;
+}
+#contactForm {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#contactForm input, #contactForm textarea {
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 100%;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+#contactForm button {
+    width: 100%;
+}
+
